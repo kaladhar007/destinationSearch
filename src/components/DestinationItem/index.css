@@ -1,0 +1,38 @@
+/* Write your CSS here */
+img {
+  width: 100%;
+}
+
+ul {
+  width: 60%;
+  padding-left: 0;
+  display: flex;
+  flex-wrap: wrap;
+  /* flex-direction: column; */
+  align-items: column;
+  justify-content: space-around;
+}
+@media (max-width: 767px) {
+  ul {
+    width: 100%;
+  }
+}
+li {
+  list-style-type: none;
+  width: 45%;
+}
+.page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.search {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.search_icon {
+  height: 30px;
+  width: 30px;
+}
